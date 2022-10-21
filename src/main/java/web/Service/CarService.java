@@ -9,6 +9,6 @@ public interface CarService {
     public List<Car> getAllCars();
 
 
-    public List<Car> getSomeAmountOfCars(int number);
+    public List<Car> getSomeAmountOfCars(Integer number);
 
 }

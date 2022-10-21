@@ -8,5 +8,5 @@ public interface CarDAO {
     public List<Car> getCarList();
 
 
-    public List<Car> getSomeAmountOfCarList(int number);
+    public List<Car> getSomeAmountOfCarList(Integer number);
 }

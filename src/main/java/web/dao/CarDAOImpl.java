@@ -26,7 +26,7 @@ public class CarDAOImpl implements CarDAO {
     }
 
     @Override
-    public List<Car> getSomeAmountOfCarList(int number) {
+    public List<Car> getSomeAmountOfCarList(Integer number) {
 //        return carList.stream().filter(car -> car.getIndex() < number).collect(Collectors.toList());
         return carList.stream().limit(number).collect(Collectors.toList());
     }
